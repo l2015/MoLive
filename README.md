@@ -11,7 +11,7 @@
 
 MoLive is an iOS application specifically designed for converting between Xiaomi Motion Photos and Live Photos. It provides a clean user interface and convenient conversion functionality.
 
-[screenshot](image.png)[中文说明](README_CN.md)
+[screenshot](image.png)    [中文说明](README_CN.md)
 
 ### ✅ Implemented Features
   - [x] Convert Xiaomi Motion Photos to Live Photos

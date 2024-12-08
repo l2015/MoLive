@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5BBDE9402CFEC2CD00D552E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBDE9272CFEC2CB00D552E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBDE92E2CFEC2CB00D552E6;
+			remoteInfo = MotionJPEGConvert;
+		};
+		5BBDE94A2CFEC2CD00D552E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBDE9272CFEC2CB00D552E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBDE92E2CFEC2CB00D552E6;
+			remoteInfo = MotionJPEGConvert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BBDE92F2CFEC2CB00D552E6 /* MotionPhotoConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionPhotoConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBDE93F2CFEC2CD00D552E6 /* MotionPhotoConvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionPhotoConvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBDE9492CFEC2CD00D552E6 /* MotionPhotoConvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionPhotoConvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B58D9322D052784005F2D7B /* Exceptions for "MotionPhotoConvert" folder in "MotionPhotoConvert" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5BBDE92E2CFEC2CB00D552E6 /* MotionPhotoConvert */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5BBDE9312CFEC2CB00D552E6 /* MotionPhotoConvert */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B58D9322D052784005F2D7B /* Exceptions for "MotionPhotoConvert" folder in "MotionPhotoConvert" target */,
+			);
+			path = MotionPhotoConvert;
+			sourceTree = "<group>";
+		};
+		5BBDE9422CFEC2CD00D552E6 /* MotionPhotoConvertTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotionPhotoConvertTests;
+			sourceTree = "<group>";
+		};
+		5BBDE94C2CFEC2CD00D552E6 /* MotionPhotoConvertUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotionPhotoConvertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBDE92C2CFEC2CB00D552E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE93C2CFEC2CD00D552E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE9462CFEC2CD00D552E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BBDE9262CFEC2CB00D552E6 = {
+			isa = PBXGroup;
+			children = (
+				5BBDE9312CFEC2CB00D552E6 /* MotionPhotoConvert */,
+				5BBDE9422CFEC2CD00D552E6 /* MotionPhotoConvertTests */,
+				5BBDE94C2CFEC2CD00D552E6 /* MotionPhotoConvertUITests */,
+				5BBDE9302CFEC2CB00D552E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBDE9302CFEC2CB00D552E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBDE92F2CFEC2CB00D552E6 /* MotionPhotoConvert.app */,
+				5BBDE93F2CFEC2CD00D552E6 /* MotionPhotoConvertTests.xctest */,
+				5BBDE9492CFEC2CD00D552E6 /* MotionPhotoConvertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBDE92E2CFEC2CB00D552E6 /* MotionPhotoConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBDE9532CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvert" */;
+			buildPhases = (
+				5BBDE92B2CFEC2CB00D552E6 /* Sources */,
+				5BBDE92C2CFEC2CB00D552E6 /* Frameworks */,
+				5BBDE92D2CFEC2CB00D552E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5BBDE9312CFEC2CB00D552E6 /* MotionPhotoConvert */,
+			);
+			name = MotionPhotoConvert;
+			packageProductDependencies = (
+			);
+			productName = MotionJPEGConvert;
+			productReference = 5BBDE92F2CFEC2CB00D552E6 /* MotionPhotoConvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BBDE93E2CFEC2CD00D552E6 /* MotionPhotoConvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBDE9562CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvertTests" */;
+			buildPhases = (
+				5BBDE93B2CFEC2CD00D552E6 /* Sources */,
+				5BBDE93C2CFEC2CD00D552E6 /* Frameworks */,
+				5BBDE93D2CFEC2CD00D552E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBDE9412CFEC2CD00D552E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5BBDE9422CFEC2CD00D552E6 /* MotionPhotoConvertTests */,
+			);
+			name = MotionPhotoConvertTests;
+			packageProductDependencies = (
+			);
+			productName = MotionJPEGConvertTests;
+			productReference = 5BBDE93F2CFEC2CD00D552E6 /* MotionPhotoConvertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BBDE9482CFEC2CD00D552E6 /* MotionPhotoConvertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBDE9592CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvertUITests" */;
+			buildPhases = (
+				5BBDE9452CFEC2CD00D552E6 /* Sources */,
+				5BBDE9462CFEC2CD00D552E6 /* Frameworks */,
+				5BBDE9472CFEC2CD00D552E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBDE94B2CFEC2CD00D552E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5BBDE94C2CFEC2CD00D552E6 /* MotionPhotoConvertUITests */,
+			);
+			name = MotionPhotoConvertUITests;
+			packageProductDependencies = (
+			);
+			productName = MotionJPEGConvertUITests;
+			productReference = 5BBDE9492CFEC2CD00D552E6 /* MotionPhotoConvertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBDE9272CFEC2CB00D552E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5BBDE92E2CFEC2CB00D552E6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5BBDE93E2CFEC2CD00D552E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5BBDE92E2CFEC2CB00D552E6;
+					};
+					5BBDE9482CFEC2CD00D552E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5BBDE92E2CFEC2CB00D552E6;
+					};
+				};
+			};
+			buildConfigurationList = 5BBDE92A2CFEC2CB00D552E6 /* Build configuration list for PBXProject "MotionPhotoConvert" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBDE9262CFEC2CB00D552E6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5BBDE9302CFEC2CB00D552E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBDE92E2CFEC2CB00D552E6 /* MotionPhotoConvert */,
+				5BBDE93E2CFEC2CD00D552E6 /* MotionPhotoConvertTests */,
+				5BBDE9482CFEC2CD00D552E6 /* MotionPhotoConvertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBDE92D2CFEC2CB00D552E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE93D2CFEC2CD00D552E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE9472CFEC2CD00D552E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBDE92B2CFEC2CB00D552E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE93B2CFEC2CD00D552E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBDE9452CFEC2CD00D552E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BBDE9412CFEC2CD00D552E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBDE92E2CFEC2CB00D552E6 /* MotionPhotoConvert */;
+			targetProxy = 5BBDE9402CFEC2CD00D552E6 /* PBXContainerItemProxy */;
+		};
+		5BBDE94B2CFEC2CD00D552E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBDE92E2CFEC2CB00D552E6 /* MotionPhotoConvert */;
+			targetProxy = 5BBDE94A2CFEC2CD00D552E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BBDE9512CFEC2CD00D552E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BBDE9522CFEC2CD00D552E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BBDE9542CFEC2CD00D552E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotionPhotoConvert/Preview Content\"";
+				DEVELOPMENT_TEAM = P534BFG4X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionPhotoConvert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BBDE9552CFEC2CD00D552E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotionPhotoConvert/Preview Content\"";
+				DEVELOPMENT_TEAM = P534BFG4X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionPhotoConvert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BBDE9572CFEC2CD00D552E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionPhotoConvert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotionPhotoConvert";
+			};
+			name = Debug;
+		};
+		5BBDE9582CFEC2CD00D552E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionPhotoConvert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotionPhotoConvert";
+			};
+			name = Release;
+		};
+		5BBDE95A2CFEC2CD00D552E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotionJPEGConvert;
+			};
+			name = Debug;
+		};
+		5BBDE95B2CFEC2CD00D552E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = longyu.MotionJPEGConvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotionJPEGConvert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBDE92A2CFEC2CB00D552E6 /* Build configuration list for PBXProject "MotionPhotoConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBDE9512CFEC2CD00D552E6 /* Debug */,
+				5BBDE9522CFEC2CD00D552E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBDE9532CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBDE9542CFEC2CD00D552E6 /* Debug */,
+				5BBDE9552CFEC2CD00D552E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBDE9562CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBDE9572CFEC2CD00D552E6 /* Debug */,
+				5BBDE9582CFEC2CD00D552E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBDE9592CFEC2CD00D552E6 /* Build configuration list for PBXNativeTarget "MotionPhotoConvertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBDE95A2CFEC2CD00D552E6 /* Debug */,
+				5BBDE95B2CFEC2CD00D552E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BBDE9272CFEC2CB00D552E6 /* Project object */;
+}
